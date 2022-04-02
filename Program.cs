@@ -8,7 +8,7 @@ namespace VehicleConsumption
         static void Main(string[] args)
         {
             Console.WriteLine("Reading Vehicle Meta data information");
-            string[] fileLines = File.ReadAllLines(@"C:\Users\AnilSingri\Downloads\Vehicle Fuel Consumption.txt");
+            string[] fileLines = File.ReadAllLines(@"C:\Downloads\Vehicle Fuel Consumption.txt");
             double priceperLitre = 0.0;
             if (args.Length > 0)
             {
