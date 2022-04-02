@@ -16,7 +16,7 @@ namespace VehicleConsumption
             }
             else
             {
-                Console.WriteLine("Enter the cost the fuel per litre");
+                Console.WriteLine("Enter the cost for fuel per litre");
                 priceperLitre = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Price Per Litre {0}", priceperLitre);
                 Console.WriteLine();
